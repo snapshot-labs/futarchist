@@ -1,0 +1,25 @@
+{
+  "name": "futarchist",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "vote": "bun run index.ts",
+    "lint": "eslint . --ext .ts --fix"
+  },
+  "eslintConfig": {
+    "extends": "@snapshot-labs"
+  },
+  "prettier": "@snapshot-labs/prettier-config",
+  "dependencies": {
+    "@snapshot-labs/sx": "^0.1.9",
+    "@walletconnect/sign-client": "^2.23.4"
+  },
+  "devDependencies": {
+    "@snapshot-labs/eslint-config": "^0.1.0-beta.21",
+    "@snapshot-labs/prettier-config": "^0.1.0-beta.19",
+    "@types/node": "^22.13.4",
+    "eslint": "^8.57.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.7.3"
+  }
+}
