@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "vote": "bun run index.ts",
-    "lint": "eslint . --ext .ts --fix"
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "bun run lint --fix"
   },
   "eslintConfig": {
     "extends": "@snapshot-labs"
